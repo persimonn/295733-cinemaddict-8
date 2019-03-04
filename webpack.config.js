@@ -9,7 +9,7 @@ module.exports = {
     },
     devtool: `source-map`,
     devServer: {
-        contentBase: path.join(__dirname, `public`),
+        contentBase: path.join(__dirname, `public`, `build`),
         publicPath: 'http://localhost:8080/',
         hot: true,
         compress: true
